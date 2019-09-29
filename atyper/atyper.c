@@ -22,7 +22,53 @@ const char keywords[][MAXLENGTH] = {
     "long",
     "string",
     "char",
-    "local"
+    "local",
+    "mode",
+    "op",
+    "prio",
+    "flex",
+    "heap",
+    "loc",
+    "ref",
+    "short",
+    "bits",
+    "bool",
+    "bytes",
+    "compl",
+    "sema",
+    "void",
+    "channel",
+    "file",
+    "format",
+    "struct",
+    "union",
+    "at",
+    "either",
+    "is",
+    "isnt",
+    "is not",
+    "of",
+    "true",
+    "false",
+    "empty",
+    "nil",
+    "skip",
+    "co",
+    "comment",
+    "pr",
+    "pragmat",
+    "in",
+    "out",
+    "for",
+    "from",
+    "to",
+    "by",
+    "while",
+    "elif",
+    "par",
+    "go to",
+    "goto",
+    "exit"
 };
 
 size_t keywords_count(void)
@@ -91,6 +137,3 @@ int main()
 
     return 0;
 }
-
-
-
