@@ -1,0 +1,9 @@
+echo "Formatting program"
+echo
+echo
+cat $1 | atyper | tee "$1.68"
+
+echo "Running program"
+echo
+echo
+algol68 "$1.68"
